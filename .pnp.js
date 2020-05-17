@@ -30,6 +30,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "fallbackPool": [
       [
+        "@types/node",
+        "npm:14.0.1"
+      ],
+      [
         "@typescript-eslint/eslint-plugin",
         "virtual:78d46aefb20ac1298cd7c9b2c0adfd2690e7634021c2668d4b7dd233e74e835a29e593b48fbbd3512847dc73891a00defd828869cdc6e9aa1a4032694207cc1e#npm:2.33.0"
       ],
@@ -57,6 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@types/node", "npm:14.0.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:78d46aefb20ac1298cd7c9b2c0adfd2690e7634021c2668d4b7dd233e74e835a29e593b48fbbd3512847dc73891a00defd828869cdc6e9aa1a4032694207cc1e#npm:2.33.0"],
             ["@typescript-eslint/parser", "virtual:78d46aefb20ac1298cd7c9b2c0adfd2690e7634021c2668d4b7dd233e74e835a29e593b48fbbd3512847dc73891a00defd828869cdc6e9aa1a4032694207cc1e#npm:2.33.0"],
             ["@yarnpkg/pnpify", "virtual:78d46aefb20ac1298cd7c9b2c0adfd2690e7634021c2668d4b7dd233e74e835a29e593b48fbbd3512847dc73891a00defd828869cdc6e9aa1a4032694207cc1e#npm:2.0.0-rc.22"],
@@ -250,6 +255,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-13.13.6-9419e0e749-3.zip/node_modules/@types/node/",
           "packageDependencies": [
             ["@types/node", "npm:13.13.6"]
+          ],
+          "linkType": "HARD",
+        }],
+        ["npm:14.0.1", {
+          "packageLocation": "./.yarn/cache/@types-node-npm-14.0.1-1942cab116-3.zip/node_modules/@types/node/",
+          "packageDependencies": [
+            ["@types/node", "npm:14.0.1"]
           ],
           "linkType": "HARD",
         }]
@@ -1855,6 +1867,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["nox-wave", "workspace:."],
+            ["@types/node", "npm:14.0.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:78d46aefb20ac1298cd7c9b2c0adfd2690e7634021c2668d4b7dd233e74e835a29e593b48fbbd3512847dc73891a00defd828869cdc6e9aa1a4032694207cc1e#npm:2.33.0"],
             ["@typescript-eslint/parser", "virtual:78d46aefb20ac1298cd7c9b2c0adfd2690e7634021c2668d4b7dd233e74e835a29e593b48fbbd3512847dc73891a00defd828869cdc6e9aa1a4032694207cc1e#npm:2.33.0"],
             ["@yarnpkg/pnpify", "virtual:78d46aefb20ac1298cd7c9b2c0adfd2690e7634021c2668d4b7dd233e74e835a29e593b48fbbd3512847dc73891a00defd828869cdc6e9aa1a4032694207cc1e#npm:2.0.0-rc.22"],
