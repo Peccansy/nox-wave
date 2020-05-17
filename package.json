@@ -1,6 +1,14 @@
 {
   "name": "nox-wave",
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts",
+    "configure": "yarn install && pnpify --sdk"
+  },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@yarnpkg/pnpify": "^2.0.0-rc.22",
+    "eslint": "^7.0.0",
     "typescript": "^3.9.2"
   }
 }
