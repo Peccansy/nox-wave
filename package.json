@@ -1,0 +1,6 @@
+{
+  "name": "nox-wave",
+  "devDependencies": {
+    "typescript": "^3.9.2"
+  }
+}
