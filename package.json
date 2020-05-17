@@ -3,14 +3,22 @@
   "scripts": {
     "build": "tsc --build .tsconfig.json",
     "lint": "eslint . --ext .js,.ts",
-    "configure": "yarn install && pnpify --sdk"
+    "configure": "yarn install && pnpify --sdk",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.2",
     "@types/node": "^14.0.1",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
     "@yarnpkg/pnpify": "^2.0.0-rc.22",
+    "babel-jest": "^26.0.1",
     "eslint": "^7.0.0",
+    "jest": "^26.0.1",
     "typescript": "^3.9.2"
   }
 }
